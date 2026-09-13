@@ -13,7 +13,9 @@ cask "copystack" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  # String form on purpose: before Homebrew 5.1.11 (May 2026) a bare symbol
+  # meant "exactly this version"; ">= :sonoma" is a minimum everywhere.
+  depends_on macos: ">= :sonoma"
 
   app "CopyStack.app"
 
