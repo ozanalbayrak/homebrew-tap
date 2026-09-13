@@ -3,6 +3,7 @@
 Homebrew casks for [ozanalbayrak](https://github.com/ozanalbayrak)'s macOS apps.
 
 ```bash
+brew trust ozanalbayrak/tap          # Homebrew 6+ asks this once for third-party taps
 brew install --cask ozanalbayrak/tap/fnswitcher
 brew install --cask ozanalbayrak/tap/copystack
 ```
