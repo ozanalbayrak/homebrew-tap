@@ -1,6 +1,6 @@
 cask "copystack" do
-  version "0.1.0"
-  sha256 "275a2bc724279e7bd281ed2c7956315f2be211c1515f93cea812e426dbff495d"
+  version "0.1.1"
+  sha256 "f3c2eadcd8c2980e7f3e644b86270eb7bd5af12aa536f55bc2402008cf2e2d81"
 
   url "https://github.com/ozanalbayrak/copy-stack/releases/download/v#{version}/CopyStack-#{version}.zip"
   name "CopyStack"
