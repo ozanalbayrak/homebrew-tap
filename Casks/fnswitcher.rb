@@ -1,6 +1,6 @@
 cask "fnswitcher" do
-  version "0.1.0"
-  sha256 "d59a47ba4cb615248918f4b83f00a552e21b10b3081636a3c3ff68dcebb2658c"
+  version "0.1.1"
+  sha256 "42b4fac2e4a8bfb55238a9caae687e99aa2f00d9b6ab5ad34790cce62870f29c"
 
   url "https://github.com/ozanalbayrak/fn-key-mod-switcher/releases/download/v#{version}/FnSwitcher-#{version}.zip"
   name "FnSwitcher"
