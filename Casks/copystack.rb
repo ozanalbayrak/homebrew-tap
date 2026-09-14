@@ -42,7 +42,10 @@ cask "copystack" do
     <<~EOS
       CopyStack needs Accessibility access to paste:
         System Settings → Privacy & Security → Accessibility → enable CopyStack
-      Because releases are ad-hoc signed, this has to be granted again after every update.
+      Snippets marked "Store in Keychain" live in your login Keychain; the first time
+      one is used, macOS asks whether CopyStack may access it — choose "Always Allow".
+      Because releases are ad-hoc signed, both grants have to be given again after
+      every update.
     EOS
   end
 end
